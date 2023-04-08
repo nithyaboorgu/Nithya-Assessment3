@@ -1,0 +1,53 @@
+<html>
+    <style>
+         body{
+            background-image:url('bg.jpg');
+         }
+    </style>
+    <head>
+        <title>Assessment-3
+        </title>
+    </head>
+    <body>
+        <h1>Contact Form</h1>
+        <form>
+            <label>First Name:</label>
+            <input type="text" id="fname"><br><br>
+            <label>Last Name:</label>
+            <input type="text" id="lname"><br><br>
+            <label>Email-id:</label>
+            <input type="email" id="email"><br><br>
+            <label>Date of Birth:</label>
+            <input type="date" id="dob"><br><br>
+            <label>Phone number:</label>
+            <input type="number" id="phno"><br><br>
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio" name="gender" value="male" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="female">Female</label>
+            </fieldset><br>
+            <fieldset>
+                <legend>Course</legend>
+                <input type="checkbox" name="Course" value="HTML" id="HTML">
+                <label for="HTML">HTML</label>
+                <input type="checkbox" name="Course" value="CSS" id="CSS">
+                <label for="CSS">CSS</label>
+                <input type="checkbox" name="Course" value="Java Script" id="Java Script">
+                <label for="HTML">Java Script</label>
+            </fieldset><br>
+            <label for="college">Select your college name:</label>
+            <select name="college" id="college">
+                <option value="CMRIT">CMRIT</option>
+                <option value="CBIT">CBIT</option>
+                <option value="BVRIT">BVRIT</option>
+                <option value="VNRVJIET">VNRVJIET</option>
+                <option value="Vasavi">Vasavi</option>
+            </select><br><br>
+            <label>Message:</label><br><br>
+            <textarea rows="8" cols="20">Enter the text here:</textarea><br><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
